@@ -1,0 +1,25 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+.tile{
+	/*margin: 20px;*/
+	padding: 10px;
+	background-color: #222;
+	color: white;
+	margin-bottom: 10px;
+}
+
+@media(min-height:776px){
+	.tile{
+		margin-right: 20px;
+	}
+}
+
+@media(min-width:10px) and (max-width: 775px){
+	.col-sm-12{
+		margin: 0px 30px 10px 30px;
+	}
+}
